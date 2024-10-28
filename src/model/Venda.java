@@ -30,6 +30,7 @@ double total = 0;
 			System.out.printf("Produto: %s\n", produto.getNome());
             System.out.printf("Quantidade: %d\n", produto.getQuant());
             System.out.printf("Preço Unitário: R$%.2f\n", produto.getPreco());
+	    System.out.printf("Preço Total: R$%.2f\n", produto.valorTotal());
 			System.out.println("------------------------------- \n");
 		}
 		System.out.printf("Valor Total da Venda: R$%.2f \n", calcularTotalVendas());
